@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:id="@+id/atas1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#26C6DA">
+
+            <TextView
+
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="PROFIL"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                />
+
+
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/atas1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_600sdp"
+                android:layout_below="@+id/p1"
+                android:background="#E3F2FD">
+
+
+                <RelativeLayout
+
+                    android:id="@+id/bingkai1"
+                    android:layout_width="@dimen/_290sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/selector2">
+
+                    <RelativeLayout
+                        android:id="@+id/kepala"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_marginLeft="@dimen/_20ssp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:background="@drawable/agung" />
+
+                    <TextView
+                        android:id="@+id/tulis1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/kepala"
+                        android:hint="RAHMAD AGUNG"
+                        android:inputType="textCapSentences"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/hp"
+                        android:layout_below="@+id/tulis1"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_toRightOf="@+id/kepala"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:src="@drawable/hp1" />
+
+                    <ImageView
+                        android:id="@+id/gmail"
+                        android:layout_below="@+id/hp"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_toRightOf="@+id/kepala"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:src="@drawable/gmail" />
+
+                    <TextView
+                        android:id="@+id/tulis2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tulis1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_toRightOf="@id/hp"
+                        android:hint="081256651403 "
+                        android:inputType="textCapSentences"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tulis3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tulis2"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_toRightOf="@id/gmail"
+                        android:hint="rahmadagung770@gmail.com "
+                        android:inputType="textCapSentences"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:id="@+id/bingkai2"
+                android:layout_below="@+id/bingkai1"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/selector2">
+
+                <TextView
+                    android:id="@+id/tex1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:hint="ABOUT MYSELF :"
+                    android:inputType="textCapSentences"
+                    android:textAlignment="center"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ket3"
+                android:layout_below="@+id/bingkai2"
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="@dimen/_85sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/selector1">
+
+                <TextView
+                    android:id="@+id/my11"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:hint="Dalam kehidupan pribadi Saya, Saya adalah seorang individu yang memiliki semangat dan tekad yang kuat untuk mencapai tujuan hidup. Saya lahir dan dibesarkan di lingkungan keluarga yang penuh kasih dan didukung oleh nilai-nilai yang kuat. Saya dikenal sebagai sosok yang cerdas, penasaran, dan berpikiran terbuka."
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9ssp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bingaki3"
+                    android:layout_below="@+id/ket3"
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/selector1">
+
+                    <TextView
+                        android:id="@+id/my1"
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:hint="Kehidupan pribadi Saya juga mencerminkan nilai-nilai etika dan integritas. Saya menjunjung tinggi prinsip-prinsip moral dan bertindak dengan kejujuran dan rasa tanggung jawab. Saya adalah sosok yang dapat diandalkan, dan orang-orang percaya bahwa mereka dapat bergantung pada Saya dalam situasi apa pun."
+
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_9ssp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/bingkai4"
+                    android:layout_below="@+id/bingaki3"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/selector1">
+
+                    <TextView
+                        android:id="@+id/my22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:hint=" My Animals :"
+                        android:inputType="textCapSentences"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <HorizontalScrollView
+                    android:id="@+id/scrolkanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_below="@id/bingkai4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/alas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_120sdp"
+                        android:background="#E0F7FA"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/bobo" />
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/moy" />
+
+                        <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/mut" />
+
+                        <ImageView
+                            android:id="@+id/image4"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_8sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/mit" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Button
+
+                    android:id="@+id/btnkeluar"
+                    android:backgroundTint="#26A69A"
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_below="@+id/scrolkanan"
+                    android:layout_marginLeft="@dimen/_10ssp"
+                    android:text=" KELUAR "
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/_9ssp" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

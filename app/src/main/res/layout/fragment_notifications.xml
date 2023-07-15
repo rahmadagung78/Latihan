@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="#26C6DA">
+
+
+            <TextView
+                android:id="@+id/p2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text=" Akun "
+                android:textColor="#FFFF"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/p1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+            <RelativeLayout
+                android:id="@+id/p11"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_below="@+id/p1"
+                android:background="#E3F2FD">
+
+
+                <RelativeLayout
+
+                    android:id="@+id/no1"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/selector2">
+
+                    <ImageButton
+                        android:id="@+id/kepala"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_marginLeft="@dimen/_20ssp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:background="@drawable/agung" />
+
+                    <TextView
+                        android:id="@+id/ed1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_toRightOf="@id/kepala"
+                        android:hint="RAHMAD AGUNG"
+                        android:inputType="textCapSentences"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tex4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ed1"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_toRightOf="@id/kepala"
+                        android:hint="081256651403 "
+                        android:inputType="textCapSentences"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btncek1"
+                        android:backgroundTint="#26A69A"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_below="@+id/tex4"
+                        android:layout_marginLeft="@dimen/_10ssp"
+                        android:layout_toRightOf="@+id/kepala"
+                        android:text="TAMPILKAN QR >"
+                        android:textSize="@dimen/_9ssp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/h4"
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_below="@+id/no1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/selector2">
+
+                    <ImageView
+                        android:id="@+id/pengaturan"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:background="@drawable/seting"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/h5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_toRightOf="@+id/pengaturan"
+                        android:text=" Pengaturan Profil "
+                        android:textColor="#000"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold" />
+
+
+
+                    <ImageButton
+                        android:id="@+id/btsyarat"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_70sdp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_toRightOf="@id/h5"
+                        android:background="@drawable/pencet"
+                        android:textColor="@color/white"
+
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/hh4"
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_below="@+id/h4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:background="@drawable/selector2">
+
+                    <ImageView
+                        android:id="@+id/bantuan"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:background="@drawable/tanya"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/hhh5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_toRightOf="@+id/bantuan"
+                        android:text=" Pusat Bantuan "
+                        android:textColor="#000"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold" />
+
+
+
+                    <ImageButton
+                        android:id="@+id/btbantuan"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_87sdp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_toRightOf="@id/hhh5"
+                        android:background="@drawable/pencet"
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/c4"
+                    android:layout_width="@dimen/_270sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_below="@+id/hh4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:background="@drawable/selector2">
+
+                    <ImageView
+                        android:id="@+id/keamanan"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:background="@drawable/kunci"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/c2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_toRightOf="@+id/keamanan"
+                        android:text="  Pengaturan Keamanan "
+                        android:textColor="#000"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold" />
+
+
+
+                    <ImageButton
+                        android:id="@+id/btkeamanan"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_37sdp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_toRightOf="@id/c2"
+                        android:background="@drawable/pencet"
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btkeluar"
+                    android:backgroundTint="#26A69A"
+                    android:layout_width="@dimen/_110sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_below="@+id/c4"
+                    android:layout_marginLeft="@dimen/_10ssp"
+                    android:layout_marginTop="@dimen/_250sdp"
+                    android:text="LOG OUT"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/_9ssp" />
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

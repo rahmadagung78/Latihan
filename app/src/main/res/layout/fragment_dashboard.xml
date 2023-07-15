@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <RelativeLayout
+
+
+        android:id="@+id/no1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="#26C6DA">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Aktivitas"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="@dimen/_18ssp"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/no1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:id="@+id/p11"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_570sdp"
+            android:layout_below="@+id/no1"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/sleep"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ativitas" />
+
+            <TextView
+                android:id="@+id/tex3"
+                android:layout_below="@+id/sleep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Belum ada isinya nih ..."
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+            <TextView
+                android:id="@+id/tex33"
+                android:layout_below="@+id/tex3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Anda sudah menyelesaikan seluruh transaksi"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_5sdp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+   </RelativeLayout>
